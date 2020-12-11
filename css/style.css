@@ -26,7 +26,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top:42px;
+    padding: 50px 0;
 }
 .nav{
     list-style-type: none;
@@ -98,13 +98,13 @@ body{
     text-align: center;
 }
 .block-feature{
-    padding-top: 100px;
+    padding: 100px 0;
 }
 
 .block__title{
     color:(--color-text-black);
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .block__subtitle{
     font-family: 'Roboto Slab';
@@ -295,9 +295,15 @@ body{
 .clients{
     padding-top: 90px;
 }
+
+.block-comments{
+    margin-top: 200px;
+}
+
 .comment{
     display: flex;
     align-items: center;
+    margin-bottom: 64px;
 }
 
 .comment__ava{
@@ -309,21 +315,22 @@ body{
 .comment__message{
     width: 660px;
     text-align: left;
-    margin-left: 0 25px;
     background-image: url('');
     position: relative;
     height: 172px;;
+    margin: 0 25px;
 }
 .comment__text{
     font-family: 'Roboto Slab';
     color: var(--color-text-gray);
-    line-height: 1;
+    line-height: 1.5;
     font-size: 1.375rem;
     padding-top: 40px;
     padding-left: 90px;
 }
 .comment__author{
-    /*padding-left: 94px;*/
+    padding-left: 130px;
+    color: #7cc576;
 }
 .comment__bg-box{
     background-image: url('../img/box-message.svg');
@@ -348,4 +355,13 @@ body{
     height: 250px;
     padding-top: 70px;
     color: #fff;
+}
+.about__btn{
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.about__btn:active{
+    background: red;
 }

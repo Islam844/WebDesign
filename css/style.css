@@ -291,3 +291,61 @@ body{
     justify-content: space-between;
     padding-top: 90px;
 }
+
+.clients{
+    padding-top: 90px;
+}
+.comment{
+    display: flex;
+    align-items: center;
+}
+
+.comment__ava{
+    height: 220px;
+    width: 220px;
+    border-radius:50%;
+    background-color: #ea2525;
+}
+.comment__message{
+    width: 660px;
+    text-align: left;
+    margin-left: 0 25px;
+    background-image: url('');
+    position: relative;
+    height: 172px;;
+}
+.comment__text{
+    font-family: 'Roboto Slab';
+    color: var(--color-text-gray);
+    line-height: 1;
+    font-size: 1.375rem;
+    padding-top: 40px;
+    padding-left: 90px;
+}
+.comment__author{
+    /*padding-left: 94px;*/
+}
+.comment__bg-box{
+    background-image: url('../img/box-message.svg');
+    background-repeat: no-repeat;
+    width: 661px;
+    height: 172px;
+    position: absolute;
+    top:0;
+    z-index: -3;
+}
+
+.comment--right{
+    flex-direction: row-reverse;
+    margin-top: 40px;;
+}
+.comment__bg-box--right{
+    transform: rotate(180deg);
+}
+
+.block--green{
+    background: #7cc576;
+    height: 250px;
+    padding-top: 70px;
+    color: #fff;
+}

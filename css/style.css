@@ -365,3 +365,64 @@ body{
 .about__btn:active{
     background: red;
 }
+
+.block-company{
+    height: 165px;
+    display: flex;
+    align-items: center;
+}
+.company{
+    display: flex;
+    list-style: none;
+}
+.company__img{
+    margin: 0 21px;
+}
+
+.block-connection{
+    background: var(--color-text-black);
+    height: 365px;
+}
+.connection
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.connection__list{
+    
+}
+
+.connection__item{
+    color: #fff;
+    display: flex;
+    align-items:flex-start;
+    margin-bottom: 20px;
+}
+
+.connection__item--section-text{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.connection__item--img{
+    width: 40px;
+    text-align: left;
+}
+.connection__item--text{
+    line-height: 1.3;
+    font-family: 'Roboto Slab';
+    text-align: left;
+}
+
+.connection--ago{
+    font-size:12px;
+}
+
+.connection__img--down
+{
+    padding-top: 4px;
+}
+

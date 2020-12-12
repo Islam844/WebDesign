@@ -416,3 +416,41 @@ body{
 .text__ago{
     font-size: 12px;
 }
+
+
+.footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.social-list{
+    margin-left: 110px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-item{
+    margin-left: 10px;
+    border-radius:50%;
+    background: var(--color-text-black);
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__twitter:hover{
+    background: #00aced;
+}
+.social__facebook:hover{
+    background: #3b5998;
+}
+.social__pinterest:hover{
+    background: #cb2028;
+}
+.social__google:hover{
+    background: #da2713;
+}

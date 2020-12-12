@@ -365,3 +365,44 @@ body{
 .about__btn:active{
     background: red;
 }
+
+/*Info*/
+.info{
+    padding: 60px 0;
+    background: var(--color-text-black);
+}
+
+.info-item__title{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.info-list{
+    list-style-type: none;
+}
+
+.info-column__list{
+    margin-top: 30px;
+}
+.info-column__list .info-list__item + .info-list__item{
+    margin-top: 20px;
+}
+
+.info-list__item{
+    display: flex;
+    align-items: center;
+}
+
+.info-list__text{
+    margin-left: 15px;
+}
+
+.info-list__icon{
+    width: 25px;
+}
+
+.info__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+}

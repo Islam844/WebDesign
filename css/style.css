@@ -426,3 +426,18 @@ body{
     padding-top: 4px;
 }
 
+.footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.links-list{
+    margin-left: 110px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.links-item{
+    margin-left: 10px;
+}

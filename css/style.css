@@ -372,7 +372,7 @@ body{
     background: var(--color-text-black);
 }
 
-.info-item__title{
+.info-column__title{
     text-transform: uppercase;
     color: #fff;
 }
@@ -383,6 +383,7 @@ body{
 
 .info-column__list{
     margin-top: 30px;
+    color: #ececec;
 }
 .info-column__list .info-list__item + .info-list__item{
     margin-top: 20px;
@@ -395,6 +396,12 @@ body{
 
 .info-list__text{
     margin-left: 15px;
+    line-height: 1.4;
+}
+
+.text__animation:hover{
+    color: #7cc576;
+    cursor: default;
 }
 
 .info-list__icon{
@@ -403,6 +410,9 @@ body{
 
 .info__grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.1fr 1fr;
     column-gap: 25px;
+}
+.text__ago{
+    font-size: 12px;
 }
